@@ -1,0 +1,42 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/TelegramRobot",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:1621",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "ancmHostingModel": "OutOfProcess",
+      "nativeDebugging": true
+    },
+    "TelegramRobot": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "DialogFlow.json",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:8443"
+    },
+    "IIS": {
+      "commandName": "IIS",
+      "environmentVariables": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "DialogFlow.json",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "ancmHostingModel": "OutOfProcess"
+    }
+  }
+}
